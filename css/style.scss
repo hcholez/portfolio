@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+.presentation {
+  width: 100%;
+  border: 1px solid purple;
+
+  h2 {
+    font-weight: bold;
+    margin-top: 0;
+    color: #666;
+  }
+}
+
+.professionnel {
+  width: 100%;
+  background: red;
+  opacity: 0.2;
+}
+
+.etude {
+  width: 100%;
+  background: blue;
+  opacity: 0.2;
+}
+
+.passion {
+  width: 100%;
+  background: green;
+  opacity: 0.2;
+}
+
+.contact {
+  width: 100%;
+  background: yellow;
+  opacity: 0.2;
+}
