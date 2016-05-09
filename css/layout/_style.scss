@@ -23,38 +23,87 @@ body {
 }
 
 .etudes {
-  .row {
-    margin: 20px;
+  h2 {
+    font-family: 'TextMe';
+    text-align: center;
+    font-weight: bold;
+    color: #DCC6E0;
+  }
 
-    h3 {
-      font-family: 'TextMe';
-      text-align: center;
-      font-weight: bold;
-    }
+  ul {
+    &.date {
+      border-bottom: 5px solid;
+      list-style: none;
+      color: rgba(220, 198, 224, 0.2);
 
-    .annee {
-      border: 1px solid;
-      padding: 10px;
-    }
+      li {
+        display: inline-block;
+        width: 19%;
+        text-align: center;
+        opacity: 0.6;
 
-    p {
-      font-size: 24px;
-      text-align: center;
-    }
+        a {
+          font-family: 'TextMe';
+          font-size: 26px;
+          text-decoration: none;
+          color: #F2784B;
+          width: 100%;
+          display: inline-block;
+          position: relative;
+          top: 15px;
 
-    .milieu {
-      .logo-left {
-        text-align: left;
+          &.bulle {
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            background: #F2784B;
+            top: 22px;
+          }
+        }
       }
+    }
+  }
 
-      .logo-right {
-        text-align: right;
-      }
+  ul {
+    &.detail-date {
+      li {
+        display: none;
+        width: 55vw;
+        margin: 30px auto;
+        height: 55vw;
+        text-align: center;
+        border-radius: 50%;
 
-      .logo-right,
-      .logo-left {
-        img {
-          width: 50%;
+        &#ip {
+          border: 1px solid #F2784B;
+        }
+
+        .ecole {
+          float: none;
+          margin: 30px auto;
+          font-family: 'TextMe';
+
+          h4 {
+            font-family: 'TextMe';
+            font-size: 35px;
+            font-weight: bold;
+          }
+
+          .annee,
+          .adresse,
+          .detail-matiere {
+            font-size: 20px;
+            font-style: italic;
+          }
+
+          .diplome {
+            font-size: 35px;
+            font-weight: bold;
+            color: #F2784B;
+            text-transform: uppercase;
+            margin-top: 30px;
+            margin-bottom: 30px;
+          }
         }
       }
     }
@@ -131,6 +180,10 @@ body {
 
 .container {
   margin: 0 auto
+}
+
+.slidesjs-pagination {
+  display: none;
 }
 
 .slidesjs-navigation {
