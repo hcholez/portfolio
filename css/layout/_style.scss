@@ -1,0 +1,155 @@
+body {
+  font-family: "TextMe";
+}
+
+.presentation,
+.etudes {
+  padding: 20px;
+  color: #6FBB63;
+  background: #3D4F5B;
+  height: 100%;
+
+  h1,
+  h2,
+  p {
+    font-family: "TextMe";
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+.etudes {
+  .row {
+    margin: 20px;
+
+    h3 {
+      font-family: 'TextMe';
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .annee {
+      border: 1px solid;
+      padding: 10px;
+    }
+
+    p {
+      font-size: 24px;
+      text-align: center;
+    }
+
+    .milieu {
+      .logo-left {
+        text-align: left;
+      }
+
+      .logo-right {
+        text-align: right;
+      }
+
+      .logo-right,
+      .logo-left {
+        img {
+          width: 50%;
+        }
+      }
+    }
+  }
+
+}
+
+
+.presentation {
+  .image {
+    overflow: hidden;
+    padding: 0;
+    border-radius: 10px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .description {
+    h1,
+    p {
+      text-align: center;
+    }
+
+    h1 {
+      font-weight: bold;
+      font-size: 45px;
+    }
+
+    p {
+      font-size: 24px;
+      line-height: 50px;
+    }
+
+  }
+
+  .adresse {
+    h2 {
+      font-weight: bold;
+      font-size: 45px;
+      font-family: 'TextMe';
+      text-align: center;
+    }
+
+  }
+
+}
+
+.container {
+  &.content {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+#slides {
+  display: none;
+  height: 100%;
+  padding: 0;
+
+  .slidesjs-container {
+    width: 100%;
+    height: 100% !important;
+
+    .slidesjs-control {
+      width: 100%;
+      height: 100% !important;
+    }
+  }
+}
+
+.container {
+  margin: 0 auto
+}
+
+.slidesjs-navigation {
+  position: absolute;
+  top: 50%;
+  z-index: 999;
+  width: 80px;
+  height: 80px;
+  font-size: 0;
+
+  &.slidesjs-previous {
+    left: 10px;
+    background: url("../images/left.jpg") no-repeat;
+    background-size: 100%;
+  }
+
+  &.slidesjs-next {
+    right: 10px;
+    background: url("../images/right.jpg") no-repeat;
+    background-size: 100%;
+  }
+}

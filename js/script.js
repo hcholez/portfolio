@@ -1,8 +1,9 @@
 $(document).ready(function() {
 
-  $('.presentation, .etude, .contact, .professionnel, .passion').each(function() {
-    var hauteurPage   = $(window).height();
-    $(this).css('height', hauteurPage);
+  var hauteurPage   = $(window).height();
+
+  $(".container.content").each(function() {
+      $(this).css('height', hauteurPage)
   });
 
 });
@@ -10,9 +11,10 @@ $(document).ready(function() {
 
 $(window).resize(function() {
 
-  $('.presentation, .etude, .contact, .professionnel, .passion').each(function() {
-    var hauteurPage   = $(window).height();
-    $(this).css('height', hauteurPage);
+  var hauteurPage   = $(window).height();
+
+  $(".container.content").each(function() {
+      $(this).css('height', hauteurPage)
   });
 
 });

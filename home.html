@@ -4,39 +4,166 @@
 <head>
   <meta charset="utf-8">
   <title>Hélène CHOLEZ</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/app.css">
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
   <script src="js/script.js"></script>
 
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
   <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+
+
+  <script src="js/jquery.slides.min.js"></script>
 
 </head>
 
 <body>
 
+  <div class="container content">
+    <div id="slides" class="col-md-12">
+      <div class="col-md-12 presentation">
 
-  <div class="presentation">
-    <h2>Hélène CHOLEZ</h2>
-    <div class="image"></div>
+        <div class="col-md-2"></div>
+
+        <div class="col-md-3 image">
+          <img src="images/profil-3.jpg" alt="">
+        </div>
+
+        <div class="col-md-5 description">
+          <h1>Hélène CHOLEZ</h1>
+          <h2>Intégratrice</h2>
+          <p>
+            <i class="fa fa-birthday-cake" aria-hidden="true"></i>    07/05/1990 à Beaune (26 ans) <br>
+            <i class="fa fa-heart" aria-hidden="true"></i>            Pacsée <br>
+            <i class="fa fa-car" aria-hidden="true"></i>              Oui <br>
+            <i class="fa fa-home" aria-hidden="true"></i>             17, Rue Fustel de Coulanges, 91 300 MASSY <br>
+            <i class="fa fa-envelope" aria-hidden="true"></i>         chlz.helene@gmail.com <br>
+            <i class="fa fa-phone" aria-hidden="true"></i>            07 70 36 92 94 <br>
+          </p>
+
+        </div>
+
+
+      </div>
+
+      <div class="col-md-12 etudes">
+
+        <h2>Mes études</h2>
+
+        <div class="row">
+
+          <div class="col-md-5 annee">
+            <h3>
+              IP FORMATION</h3>
+            <p>
+              Année <br>
+              <i class="fa fa-map-marker" aria-hidden="true"></i> Lieu <br>
+              <i class="fa fa-graduation-cap" aria-hidden="true"></i> Diplome <br>
+
+              Détails <br>
+            </p>
+
+          </div>
+
+          <div class="col-md-2 milieu">
+            <div class='col-md-12 logo-left'>
+              <img src="images/ip.png" alt="">
+
+            </div>
+
+            <div class='col-md-12 logo-right'>
+              <img src="images/ip.png" alt="">
+
+            </div>
+          </div>
+
+          <div class="col-md-5  annee">
+            <h3>ETS IRIS</h3>
+            <p>
+              Année <br>
+              <i class="fa fa-map-marker" aria-hidden="true"></i> Lieu <br>
+              <i class="fa fa-graduation-cap" aria-hidden="true"></i> Diplome <br>
+
+              Détails <br>
+            </p>
+
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-5 annee">
+            <h3>UNIVERSITE DE BOURGIGNE</h3>
+            <p>
+              Année <br>
+              <i class="fa fa-map-marker" aria-hidden="true"></i> Lieu <br>
+              <i class="fa fa-graduation-cap" aria-hidden="true"></i> Diplome <br>
+
+              Détails <br>
+            </p>
+
+          </div>
+
+          <div class="col-md-2 milieu">
+            <div class='col-md-12 logo-left'>
+              <img src="images/ip.png" alt="">
+
+            </div>
+
+            <div class='col-md-12 logo-right'>
+              <img src="images/ip.png" alt="">
+
+            </div>
+          </div>
+
+          <div class="col-md-5  annee">
+            <h3>LYCEE LE CASTEL</h3>
+            <p>
+              Année <br>
+              <i class="fa fa-map-marker" aria-hidden="true"></i> Lieu <br>
+              <i class="fa fa-graduation-cap" aria-hidden="true"></i> Diplome <br>
+
+              Détails <br>
+            </p>
+
+          </div>
+
+        </div>
+
+
+
+
+
+      </div>
+
+    </div>
 
   </div>
 
-  <div class="etude">
 
-  </div>
 
-  <div class="professionel">
 
-  </div>
 
-  <div class="passion">
-
-  </div>
-
-  <div class="contact">
-
-  </div>
+  <script>
+  $(function() {
+    $('#slides').slidesjs({
+      width: 940,
+      height: 528,
+      navigation: {
+        effect: "fade"
+      },
+      pagination: {
+        effect: "fade"
+      },
+      effect: {
+        fade: {
+          speed: 400
+        }
+      }
+    });
+  });
+</script>
 </body>
 
 </html>
