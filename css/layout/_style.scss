@@ -1,122 +1,13 @@
-body {
-  font-family: "TextMe";
-}
+.head {
+  background: #00b16a;
+  padding-top: 50px;
+  padding-bottom: 50px;
 
-.presentation,
-.etudes {
-  padding: 20px;
-  color: #6FBB63;
-  background: #3D4F5B;
-  height: 100%;
-
-  h1,
-  h2,
-  p {
-    font-family: "TextMe";
-  }
-
-  h2 {
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 40px;
-  }
-}
-
-.etudes {
-  h2 {
-    font-family: 'TextMe';
-    text-align: center;
-    font-weight: bold;
-    color: #DCC6E0;
-  }
-
-  ul {
-    &.date {
-      border-bottom: 5px solid;
-      list-style: none;
-      color: rgba(220, 198, 224, 0.2);
-
-      li {
-        display: inline-block;
-        width: 19%;
-        text-align: center;
-        opacity: 0.6;
-
-        a {
-          font-family: 'TextMe';
-          font-size: 26px;
-          text-decoration: none;
-          color: #F2784B;
-          width: 100%;
-          display: inline-block;
-          position: relative;
-          top: 15px;
-
-          &.bulle {
-            height: 30px;
-            width: 30px;
-            border-radius: 50%;
-            background: #F2784B;
-            top: 22px;
-          }
-        }
-      }
-    }
-  }
-
-  ul {
-    &.detail-date {
-      li {
-        display: none;
-        width: 55vw;
-        margin: 30px auto;
-        height: 55vw;
-        text-align: center;
-        border-radius: 50%;
-
-        &#ip {
-          border: 1px solid #F2784B;
-        }
-
-        .ecole {
-          float: none;
-          margin: 30px auto;
-          font-family: 'TextMe';
-
-          h4 {
-            font-family: 'TextMe';
-            font-size: 35px;
-            font-weight: bold;
-          }
-
-          .annee,
-          .adresse,
-          .detail-matiere {
-            font-size: 20px;
-            font-style: italic;
-          }
-
-          .diplome {
-            font-size: 35px;
-            font-weight: bold;
-            color: #F2784B;
-            text-transform: uppercase;
-            margin-top: 30px;
-            margin-bottom: 30px;
-          }
-        }
-      }
-    }
-  }
-
-}
-
-
-.presentation {
   .image {
     overflow: hidden;
+    border-radius: 50%;
     padding: 0;
-    border-radius: 10px;
+    border: 4px solid #f4f4f4;
 
     img {
       width: 100%;
@@ -124,85 +15,245 @@ body {
     }
   }
 
-  .description {
-    h1,
-    p {
-      text-align: center;
-    }
-
-    h1 {
-      font-weight: bold;
-      font-size: 45px;
-    }
-
-    p {
-      font-size: 24px;
-      line-height: 50px;
-    }
-
+  .name,
+  .slogan {
+    color: #f5f5f5;
+    text-align: center;
+    font-family: "Dense";
   }
 
-  .adresse {
-    h2 {
-      font-weight: bold;
-      font-size: 45px;
-      font-family: 'TextMe';
-      text-align: center;
-    }
-
+  .name {
+    font-size: 71px;
+    text-transform: uppercase;
+    border-bottom: 3px solid #f4f4f4;
   }
 
-}
-
-.container {
-  &.content {
-    width: 100%;
-    padding: 0;
+  .slogan {
+    font-size: 60px;
   }
-}
 
+  .network {
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: 40px;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    background: #007d4b;
+    border: 1px solid #f4f4f4;
+    margin-right: 10px;
+    margin-top: 20px;
 
-#slides {
-  display: none;
-  height: 100%;
-  padding: 0;
-
-  .slidesjs-container {
-    width: 100%;
-    height: 100% !important;
-
-    .slidesjs-control {
+    a {
+      text-decoration: none;
+      color : #f4f4f4;
+      display: inline-block;
       width: 100%;
-      height: 100% !important;
+      height: 100%;
+      text-align: center;
     }
   }
 }
 
-.container {
-  margin: 0 auto
+
+//MENU
+.menu {
+  background: #007d4b;
+
+  .item {
+    font-size: 36px;
+    font-family: "Dense";
+    color : #f4f4f4;
+
+    &:nth-child(1) {
+      border-top: 5px solid;
+    }
+
+    a {
+      text-decoration: none;
+      display: inline-block;
+      width: 100%;
+      color : #f4f4f4;
+    }
+  }
 }
 
-.slidesjs-pagination {
-  display: none;
-}
 
-.slidesjs-navigation {
-  position: absolute;
-  top: 50%;
-  z-index: 999;
-  width: 80px;
-  height: 80px;
-  font-size: 0;
+//Qui suis-je ?
+#me {
+  background: #f5f5f5;
+  padding-top: 20px;
 
-  &.slidesjs-previous {
-    left: 10px;
-    background: url("../images/left.jpg") no-repeat;
-    background-size: 100%;
+  .title {
+    color: #007d4b;
+    font-size: 60px;
+    font-family: "Dense";
+    text-align: center;
   }
 
-  &.slidesjs-next {
-    right: 10px;
-    background: url("../images/right.jpg") no-repeat;
-    background-size: 100%;
+  .bubble-right {
+    .bubble {
+      text-align: right;
+
+      .item {
+        margin-right: 50px;
+      }
+
+      .date {
+        margin-right: 70px;
+      }
+    }
+
+    .detail {
+      &:before {
+        content: '';
+        background: #eaeaea;
+        position: absolute;
+        border-bottom: 1px solid #c7c7c7;
+        border-left: 1px solid #c7c7c7;
+        height: 25px;
+        width: 25px;
+        top: 50%;
+        left: -13px;
+        -ms-transform: translateY(-50%) rotate(45deg);
+        -webkit-transform: translateY(-50%) rotate(45deg);
+        transform: translateY(-50%) rotate(45deg);
+      }
+    }
+  }
+
+  .bubble-left {
+    .bubble {
+      text-align: left;
+
+      .item {
+        margin-left: 33px;
+      }
+
+      .date {
+        margin-left: 49px;
+      }
+    }
+
+    .detail {
+      &:after {
+        content: '';
+        background: #eaeaea;
+        position: absolute;
+        border-top: 1px solid #c7c7c7;
+        border-right: 1px solid #c7c7c7;
+        height: 25px;
+        width: 25px;
+        top: 50%;
+        left: 475px;
+        -ms-transform: translateY(-50%) rotate(45deg);
+        -webkit-transform: translateY(-50%) rotate(45deg);
+        transform: translateY(-50%) rotate(45deg);
+      }
+    }
+
+  }
+
+  .bubble {
+    .item {
+      border: 2px solid #007d4b;
+      display: inline-block;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: #00b16a;
+    }
+
+    .date {
+      color: #007d4b;
+      font-size: 36px;
+      font-family: "Dense";
+    }
+  }
+
+  .detail {
+    border: 1px solid #c7c7c7;
+    background: #eaeaea;
+
+    span {
+      font-family: "Dense";
+      font-size: 20px;
+      color: #00b16a;
+      display: inline-block;
+      padding: 20px;
+    }
+  }
+}
+
+#parcours {
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  background: url("../images/parcours.png") no-repeat center fixed;
+  background-size: cover;
+
+  .container {
+    height: 100%;
+
+    .row {
+      height: 100%;
+
+      .title {
+        text-transform: uppercase;
+        font-size: 71px;
+        color: #f4f4f4;
+        text-shadow: -15px 0px 6px rgba(234, 234, 234, 1);
+        text-align: center;
+        height: 100%;
+        top: 38%;
+        font-family: "Dense";
+      }
+    }
+  }
+}
+
+.parcours-detail {
+
+  .title {
+    font-size: 71px;
+    color: #007d4b;
+    font-family: "Dense";
+  }
+
+  img {
+    height: 100px;
+  }
+
+  .entreprise {
+    border: 1px solid #c7c7c7;
+    background: #eaeaea;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+
+    .job {
+      font-family: "Dense";
+      font-size: 40px;
+      text-transform: uppercase;
+      color: #00b16a;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .date {
+      font-family: "Dense";
+      font-style: italic;
+      font-size: 20px;
+      color: #00b16a;
+      margin-bottom: 30px;
+    }
+
+    .detail {
+      font-family: "Dense";
+      font-size: 24px;
+      color: #00b16a;
+    }
   }
 }
