@@ -178,35 +178,6 @@
     text-shadow: 0 0 5px rgba(0, 177, 106, 0.8);
     margin: 40px 0;
   }
-
-  /*.star {
-    text-align: center;
-    margin: 10px 0;
-
-    .fa {
-      border: 1px solid rgba(199, 199, 199, 0.35);
-      background: rgba(234, 234, 234, 0.35);
-      color: rgba(199, 199, 199, 0.35);
-      padding: 5px;
-      font-size: 1.5em;
-      border-radius: 50%;
-
-      &.active {
-        border: 1px solid rgba(0, 125, 75, 1);
-        background: rgba(0, 177, 106, 1);
-        color: rgba(255, 255, 255, 1);
-      }
-    }
-
-    span {
-      font-family: "Dense";
-      font-size: 2em;
-      margin: 0 0 0 10px;
-      color: rgba(0, 177, 106, 1);
-      text-transform: uppercase;
-      text-align: center;
-    }
-  }*/
 }
 
 #parcours {
@@ -467,5 +438,16 @@
     font-size: 3em;
     padding: 10px;
     color: rgba(255, 255, 255, 1);
+  }
+}
+
+.creations {
+  h5 {
+    font-size: 3em;
+    text-transform: uppercase;
+    margin: 20px 0;
+    color: rgba(0, 177, 106, 1);
+    font-family: "Dense";
+    text-align: center;
   }
 }
