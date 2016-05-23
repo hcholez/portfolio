@@ -451,3 +451,28 @@
     text-align: center;
   }
 }
+
+a.boyfriend {
+  border: 1px solid rgba(209, 72, 65, 1);
+  color: rgba(209, 72, 65, 1);
+  text-transform: uppercase;
+  position: fixed;
+  font-family: "Dense";
+  padding: 10px;
+  font-size: 2em;
+  top: 260px;
+  right: 450px;
+  transform: rotate(25deg);
+  font-weight: bold;
+  -moz-box-shadow: 0 0 10px 5px rgba(209, 72, 65, 1);
+  -webkit-box-shadow: 0 0 10px 5px rgba(209, 72, 65, 1);
+  -o-box-shadow: 0 0 10px 5px rgba(209, 72, 65, 1);
+  box-shadow: 0 0 10px 5px rgba(209, 72, 65, 1);
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: none;
+    color: rgba(209, 72, 65, 1);
+  }
+}
