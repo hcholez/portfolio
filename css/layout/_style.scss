@@ -453,26 +453,47 @@
 }
 
 a.boyfriend {
-  border: 1px solid rgba(209, 72, 65, 1);
-  color: rgba(209, 72, 65, 1);
+  border: 2px solid rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
   text-transform: uppercase;
   position: absolute;;
   font-family: "Dense";
-  padding: 10px;
-  font-size: 2em;
-  top: 260px;
-  right: 450px;
-  transform: rotate(25deg);
-  font-weight: bold;
-  -moz-box-shadow: 0 0 10px 5px rgba(209, 72, 65, 1);
-  -webkit-box-shadow: 0 0 10px 5px rgba(209, 72, 65, 1);
-  -o-box-shadow: 0 0 10px 5px rgba(209, 72, 65, 1);
-  box-shadow: 0 0 10px 5px rgba(209, 72, 65, 1);
+  top: 430px;
+  right: 50px;
+  transform: rotate(10deg);
   text-decoration: none;
   cursor: pointer;
+  padding: 5px;
+  background: rgba(0, 177, 106, 1);
 
   &:hover {
     text-decoration: none;
-    color: rgba(209, 72, 65, 1);
+    color: rgba(255, 255, 255, 1);
+    //background: linear-gradient(to right, rgba(0, 177, 106, 1), rgba(255, 255, 255, 0.5));
   }
+
+  .btn {
+    border: 2px solid rgba(255, 255, 255, 1);
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.4), rgba(0, 177, 106, 1));
+  }
+}
+
+.click {
+  font-family: "Crayon";
+  color: rgba(255, 255, 255, 1);
+  right: 55px;
+  top: 380px;
+  position: absolute;
+  font-size: 2em;
+}
+
+.fleche-click {
+  position: absolute;
+  right: 15px;
+  top: 353px;
+  width: 6%;
+  transform: rotate(60deg);
 }
