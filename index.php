@@ -22,7 +22,7 @@
     <div class="container">
 
       <div class="row">
-        <div class="col-md-2 col-md-offset-5 col-xs-offset-3 col-xs-6 image">
+        <div class="col-md-2 col-md-offset-5 col-xs-offset-4 col-xs-4 image">
           <img src="images/Profil-3.jpg" alt="Hélène CHOLEZ" title"Hélène CHOLEZ">
         </div>
       </div>
