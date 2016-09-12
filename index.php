@@ -180,6 +180,17 @@
         </div>
       </div>
 
+      <div class="row bubble-right">
+        <div class="col-md-2 col-xs-3 col-md-offset-5 bubble">
+          <span class=item></span><br>
+          <span class="date">2016</span>
+        </div>
+
+        <div class="col-md-5 col-xs-9 detail">
+          <span>Il est temps de changer de ville ! Nous voici arrivés dans la région vendéenne</span>
+        </div>
+      </div>
+
     </div>
   </div>
 
