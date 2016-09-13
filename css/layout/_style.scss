@@ -320,6 +320,7 @@
         border-left: none;
         border-right: none;
         border-top: none;
+        border-bottom: 2px solid #EAEAEA;
 
         &.message {
           height: 150px;
@@ -347,7 +348,7 @@
             font-size: 1.5em;
             font-family: "Dense";
           }
-        }    
+        }
       }
     }
   }
