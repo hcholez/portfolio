@@ -544,6 +544,38 @@
 
   </div>
 
+  <div class="wrapper contact">
+
+    <div class="container">
+      <h5>Me contacter</h5>
+
+      <form class="form-contact" action="envoi.php" method="post">
+        <div class="form-group">
+          <label for="name"><i class="fa fa-user" aria-hidden="true"></i></label>
+          <input type="text" name="name" placeholder="Nom - Prénom">
+        </div>
+
+        <div class="form-group">
+          <label for="email"><i class="fa fa-envelope" aria-hidden="true"></i></label>
+          <input type="eamil" name="email" placeholder="Email">
+        </div>
+
+        <div class="form-group">
+          <label class="message" for="message"><i class="fa fa-commenting" aria-hidden="true"></i></label>
+          <input class="message" type="textarea" name="message" placeholder="Message">
+        </div>
+
+        <div class="form-group envoyer">
+          <button type="button" class="btn btn-success">Envoyer</button>
+        </div>
+
+      </form>
+
+    </div>
+
+  </div>
+
+
   <div class="wrapper sub-footer">
     <div class="container">
 
