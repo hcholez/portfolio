@@ -23,7 +23,7 @@
 
       <div class="row">
         <div class="col-md-2 col-md-offset-5 col-xs-offset-4 col-xs-4 image">
-          <img src="images/Profil-3.jpg" alt="Hélène CHOLEZ" title"Hélène CHOLEZ">
+          <img src="images/profil-4.jpg" alt="Hélène CHOLEZ" title"Hélène CHOLEZ">
         </div>
       </div>
 
@@ -202,92 +202,104 @@
         <h3>Mes compétences</h3>
       </div>
 
-      <div class="col-md-2 col-xs-6 col-sm-3 star-50">
-        <div class="more">
-          <span>50%</span><br>
-          <span class="techno">SASS</span>
+      <div class="detail-comp col-lg-3 col-md-3 col-xs-6 col-sm-3">
+        <span class="techno">CSS</span>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+          </div>
+        </div>
+      </div>
+
+      <div class="detail-comp col-lg-3 col-md-3 col-xs-6 col-sm-3">
+        <span class="techno">SASS</span>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+          </div>
+        </div>
+      </div>
+
+      <div class="detail-comp col-lg-3 col-md-3 col-xs-6 col-sm-3">
+        <span class="techno">HTML</span>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+          </div>
+        </div>
+      </div>
+
+      <div class="detail-comp col-lg-3 col-md-3 col-xs-6 col-sm-3">
+        <span class="techno">jQuery</span>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:30%">
+          </div>
+        </div>
+      </div>
+
+      <div class="detail-comp col-lg-3 col-md-3 col-xs-6 col-sm-3">
+        <span class="techno">Photophop</span>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+          </div>
+        </div>
+      </div>
+
+      <div class="detail-comp col-lg-3 col-md-3 col-xs-6 col-sm-3">
+        <span class="techno">GIT</span>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:35%">
+          </div>
         </div>
       </div>
 
 
-      <div class="col-md-2 col-xs-6 col-sm-3 star-50">
-        <div class="more">
-          <span>50%</span><br>
-          <span class="techno">Windev</span>
+      <div class="detail-comp col-lg-3 col-md-3 col-xs-6 col-sm-3">
+        <span class="techno">Drupal</span>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:30%">
+          </div>
         </div>
       </div>
 
-      <div class="col-md-2 col-xs-6 col-sm-3 star-25">
-        <div class="more">
-          <span>25%</span><br>
-          <span class="techno">Magento</span>
+      <div class="detail-comp col-lg-3 col-md-3 col-xs-6 col-sm-3">
+        <span class="techno">PHP</span>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:25%">
+          </div>
         </div>
       </div>
 
-      <div class="col-md-2 col-xs-6 col-sm-3 star-25">
-        <div class="more">
-          <span>25%</span><br>
-          <span class="techno">Drupal</span>
+      <div class="detail-comp col-lg-3 col-md-3 col-xs-6 col-sm-3">
+        <span class="techno">Mysql</span>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:25%">
+          </div>
         </div>
       </div>
 
-      <div class="col-md-2 col-xs-6 col-sm-3 star-75">
-        <div class="more">
-          <span>75%</span><br>
-          <span class="techno">Office</span>
+      <div class="detail-comp col-lg-3 col-md-3 col-xs-6 col-sm-3">
+        <span class="techno">Office</span>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+          </div>
         </div>
       </div>
 
-      <div class="col-md-2 col-xs-6 col-sm-3 star-25">
-        <div class="more">
-          <span>25%</span><br>
-          <span class="techno">PHP</span>
+      <div class="detail-comp col-lg-3 col-md-3 col-xs-6 col-sm-3">
+        <span class="techno">Windev</span>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+          </div>
         </div>
       </div>
 
-      <div class="col-md-2 col-xs-6 col-sm-3 star-75">
-        <div class="more">
-          <span>75%</span><br>
-          <span class="techno">CSS</span>
+      <div class="detail-comp col-lg-3 col-md-3 col-xs-6 col-sm-3">
+        <span class="techno">Magento</span>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:25%">
+          </div>
         </div>
       </div>
 
-
-      <div class="col-md-2 col-xs-6 col-sm-3 star-75">
-        <div class="more">
-          <span>75%</span><br>
-          <span class="techno">Photophop</span>
-        </div>
-      </div>
-
-      <div class="col-md-2 col-xs-6 col-sm-3 star-75">
-        <div class="more">
-          <span>75%</span><br>
-          <span class="techno">HTML</span>
-        </div>
-      </div>
-
-      <div class="col-md-2 col-xs-6 col-sm-3 star-25">
-        <div class="more">
-          <span>25%</span><br>
-          <span class="techno">jQuery</span>
-        </div>
-      </div>
-
-      <div class="col-md-2 col-xs-6 col-sm-3 star-25">
-        <div class="more">
-          <span>25%</span><br>
-          <span class="techno">MySql</span>
-        </div>
-      </div>
-
-      <div class="col-md-2 col-xs-6 col-sm-3 star-25">
-        <div class="more">
-          <span>25%</span><br>
-          <span class="techno">GIT</span>
-        </div>
-      </div>
-
+      
 
     </div>
   </div>
@@ -307,6 +319,36 @@
 
       <h4>Dans l'informatique</h4>
 
+      <div class="col-md-4 col-xs-12 col-sm-6 entreprise">
+          <div class="margin">
+            <div class="row">
+              <div class="col-md-12">
+                <img src="images/logo-cap.jpg" alt="Capgemini" title="Capgemini"> <br>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <h5>Intégrateur Web</h5>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12 date">
+                Décembre 2016 - Aujourd'hui
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12 detail">
+                Manipulation du back-office Drupal <br>
+                Intégration de maquette <br>
+                SASS - CSS - JS - HTML <br>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="col-md-4 col-xs-12 col-sm-6 entreprise">
           <div class="margin">
             <div class="row">
@@ -323,7 +365,7 @@
 
             <div class="row">
               <div class="col-md-12 date">
-                Juillet 2015 - Aujourd'hui
+                Juillet 2015 - Octobre 2016
               </div>
             </div>
 
@@ -403,9 +445,7 @@
           </div>
         </div>
 
-
-
-        <div class="col-md-4 col-md-offset-2 col-xs-12 col-sm-6 entreprise">
+        <div class="col-md-4 col-xs-12 col-sm-6 entreprise">
           <div class="margin">
             <div class="row">
               <div class="col-md-12">
@@ -437,7 +477,7 @@
           </div>
         </div>
 
-        <div class="col-md-4 col-md-offset-2 col-md-pull-2 col-xs-12 col-sm-12 entreprise">
+        <div class="col-md-4 col-xs-12 col-sm-6 entreprise">
           <div class="margin">
             <div class="row">
               <div class="col-md-12">
@@ -466,7 +506,6 @@
             </div>
           </div>
         </div>
-
 
 
       <div class="row">
