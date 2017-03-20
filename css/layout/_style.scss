@@ -1,3 +1,9 @@
+body {
+  &.hcholez {
+    background-color: #F4F5F6;
+  }
+}
+
 .head {
   background: rgba(0, 177, 106, 1);
   padding: 30px 0 30px;
@@ -99,43 +105,12 @@
     color: rgba(0, 125, 75, 1);
   }
 
-  .bubble-right {
-    .detail {
-      &:before {
-        content: '';
-        background: rgba(234, 234, 234, 1);
-        position: absolute;
-        border-bottom: 1px solid rgba(199, 199, 199, 1);
-        border-left: 1px solid rgba(199, 199, 199, 1);
-        height: 25px;
-        width: 25px;
-        top: 50%;
-        left: -13px;
-        -ms-transform: translateY(-50%) rotate(45deg);
-        -webkit-transform: translateY(-50%) rotate(45deg);
-        transform: translateY(-50%) rotate(45deg);
-      }
-    }
-  }
-
-  .bubble-left {
-    .detail {
-      &:after {
-        content: '';
-        background: rgba(234, 234, 234, 1);
-        position: absolute;
-        border-top: 1px solid rgba(199, 199, 199, 1);
-        border-right: 1px solid rgba(199, 199, 199, 1);
-        height: 25px;
-        width: 25px;
-        top: 50%;
-        left: 475px;
-        -ms-transform: translateY(-50%) rotate(45deg);
-        -webkit-transform: translateY(-50%) rotate(45deg);
-        transform: translateY(-50%) rotate(45deg);
-      }
-    }
-
+  .container {
+    width: 65%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   .bubble {
@@ -159,9 +134,6 @@
   }
 
   .detail {
-    border: 1px solid rgba(199, 199, 199, 1);
-    background: rgba(234, 234, 234, 1);
-
     span {
       font-family: Arial;
       font-size: 1em;
@@ -204,20 +176,37 @@
 }
 
 .parcours-detail {
+  .container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 65%;
+  }
+
   h4 {
     font-size: 4em;
     margin: 20px 0;
     color: rgba(0, 125, 75, 1);
     font-family: "Dense";
+    padding-left: 20px;
   }
 
-  img {
-    height: 90px;
+  .part-1 {
+    text-align: center;
+
+    .logo {
+      height: 100px;
+      width: auto;
+      max-width: 100%;
+    }
   }
 
   .entreprise {
-    text-align: center;
     padding: 30px 0;
+
+    .detail,
+    h5 {
+      padding-left: 40px;
+    }
 
     .margin {
       padding: 10px;
@@ -226,7 +215,6 @@
     h5,
     .date {
       font-family: "Dense";
-      text-align: center;
     }
 
     h5 {
@@ -234,17 +222,18 @@
       text-transform: uppercase;
       margin: 20px 0;
       color: rgba(0, 177, 106, 1);
+      margin-top: 0;
     }
 
     .date {
       font-style: italic;
       font-size: 1.5em;
       margin: 0 0 30px;
+      text-align: center;
     }
 
     .detail {
       font-size: 1em;
-      text-align: center;
       line-height: 2em;
       font-family: Arial;
     }
@@ -293,11 +282,18 @@
 .contact {
   margin-top: 40px;
 
+  .container {
+    width: 65%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
   h5 {
     text-align: center;
     font-family: "Dense";
     text-transform: uppercase;
     font-size: 3em;
+    color: #007d4b;
   }
 
   form {
@@ -443,54 +439,14 @@
   }
 }
 
-a.boyfriend {
-  border: 2px solid rgba(255, 255, 255, 1);
-  color: rgba(255, 255, 255, 1);
-  text-transform: uppercase;
-  position: absolute;;
-  font-family: "Dense";
-  top: 20%;
-  right: 9%;
-  transform: rotate(10deg);
-  text-decoration: none;
-  cursor: pointer;
-  padding: 5px;
-  background: rgba(0, 177, 106, 1);
-
-  &:hover {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 1);
-  }
-
-  .btn {
-    border: 2px solid rgba(255, 255, 255, 1);
-    font-size: 2em;
-    font-weight: bold;
-    padding: 10px;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.4), rgba(0, 177, 106, 1));
-  }
-}
-
-.click {
-  font-family: "Crayon";
-  color: rgba(255, 255, 255, 1);
-  right: 10%;
-  top: 17%;
-  position: absolute;
-  font-size: 2em;
-}
-
-.fleche-click {
-  position: absolute;
-  right: 5%;
-  top: 13%;
-  width: 5%;
-  transform: rotate(50deg);
-}
-
-
 //PROGRESS BAR 
 #competences {
+  .container{
+    width: 65%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
   .techno {
     font-size: 1.7rem;
   }
@@ -525,3 +481,100 @@ a.boyfriend {
   }
 }
 
+.message-img {
+  width: 90px;
+  height: 90px;
+  display: block;
+  overflow: hidden;
+  border-radius: 50%;
+  position: fixed;
+  left: 25px;
+  bottom: 25px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+
+  img {
+    width: 100%;
+  }
+}
+
+.block-shadow {
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.puce {
+  position: relative;
+  padding-left: 20px;
+
+  &:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: #00B16A;
+    transform: rotate(45deg);
+    left: 0;
+    top: 8px;
+  }
+}
+
+.pacs {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  width: 40%;
+  height: 100px;
+
+  div {
+    height: 100%;
+  }
+
+  a.boyfriend {
+    border: 2px solid rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    position: absolute;;
+    font-family: "Dense";
+    top: 25%;
+    right: 9%;
+    transform: rotate(10deg);
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px;
+    background: rgba(0, 177, 106, 1);
+
+    &:hover {
+      text-decoration: none;
+      color: rgba(255, 255, 255, 1);
+    }
+
+    .btn {
+      border: 2px solid rgba(255, 255, 255, 1);
+      font-size: 2em;
+      font-weight: bold;
+      padding: 10px;
+      background: linear-gradient(to right, rgba(255, 255, 255, 0.4), rgba(0, 177, 106, 1));
+    }
+  }
+
+  .click {
+    font-family: "Crayon";
+    color: rgba(255, 255, 255, 1);
+    right: 10%;
+    top: -13%;
+    position: absolute;
+    font-size: 2em;
+  }
+
+  .fleche-click {
+    position: absolute;
+    right: 5%;
+    top: 13%;
+    width: 5%;
+    transform: rotate(50deg);
+}
+}

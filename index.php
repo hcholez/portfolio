@@ -16,14 +16,14 @@
 
 </head>
 
-<body>
+<body class="hcholez">
 
   <div class="wrapper head">
     <div class="container">
 
       <div class="row">
         <div class="col-md-2 col-md-offset-5 col-xs-offset-4 col-xs-4 image">
-          <img src="images/profil-4.jpg" alt="Hélène CHOLEZ" title"Hélène CHOLEZ">
+          <img src="images/profil-4.jpg" alt="Hélène CHOLEZ" title='Hélène CHOLEZ'>
         </div>
       </div>
 
@@ -39,12 +39,18 @@
         </div>
       </div>
 
-      <span class="click">Clique ici !</span><img class="fleche-click" src="images/fleche2.png" alt="">
-      <a class="boyfriend" href="https://lord-of-universe.fr/equipe/" title="Clique pour voir !" target="_blank">
-        <div class="btn">
-          <i class="fa fa-heart" aria-hidden="true"></i> J'ai un pacsé !
+      <div class="row pacs">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">        
+          <span class="click">Clique ici !</span><img class="fleche-click" src="images/fleche2.png" alt="">
+          <a class="boyfriend" href="https://lord-of-universe.fr/equipe/" title="Clique pour voir !" target="_blank">
+            <div class="btn">
+              <i class="fa fa-heart" aria-hidden="true"></i> J'ai un pacsé !
+            </div>
+          </a>
         </div>
-      </a>
+      </div>
+
+      
 
       <div class="row">
         <div class="col-md-12 network">
@@ -108,7 +114,7 @@
   </div>
 
   <div id="me" class="wrapper">
-    <div class="container">
+    <div class="container block-shadow">
 
       <div class="row">
         <h3>Qui suis-je ?</h3>
@@ -120,13 +126,13 @@
           <span class="date">1990</span>
         </div>
 
-        <div class="col-md-5 col-xs-9 detail">
+        <div class="col-md-5 col-xs-9 detail block-shadow">
           <span>Je n'étais pas pressée mais le 7 mai j’ai ouvert les yeux pour la première fois.</span>
         </div>
       </div>
 
       <div class="row bubble-left">
-        <div class="col-md-5 col-xs-9 detail">
+        <div class="col-md-5 col-xs-9 detail block-shadow">
           <span>Ce jour du mois de juillet je me suis dis que je pouvais maintenant passer dans la cours des grands (obtention du BAC)</span>
         </div>
 
@@ -142,13 +148,13 @@
           <span class="date">2009</span>
         </div>
 
-        <div class="col-md-5 col-xs-9 detail">
+        <div class="col-md-5 col-xs-9 detail block-shadow">
           <span>Décuverte du monde de l'Université en IUT c'est ici que j'ai découvert la photographie !</span>
         </div>
       </div>
 
       <div class="row bubble-left">
-        <div class="col-md-5 col-xs-9 detail">
+        <div class="col-md-5 col-xs-9 detail block-shadow">
           <span>J'avais un rêve étant petite : être juges des enfants ... J'ai essayé ! Cette année là il y a aussi eu une femme de plus au volant !</span>
         </div>
 
@@ -164,13 +170,13 @@
           <span class="date">2013</span>
         </div>
 
-        <div class="col-md-5 col-xs-9 detail">
+        <div class="col-md-5 col-xs-9 detail block-shadow">
           <span>Déménager pour commencer une nouvelle carrière ! BTS SIO obtenu sur Paris</span>
         </div>
       </div>
 
       <div class="row bubble-left">
-        <div class="col-md-5 col-xs-9 detail">
+        <div class="col-md-5 col-xs-9 detail block-shadow">
           <span>Paris me rendant heureuse j'ai décidé de continuer dans cette ville, avec un Pacs et un Mastère en poche ! Le bonheur !</span>
         </div>
 
@@ -186,7 +192,7 @@
           <span class="date">2016</span>
         </div>
 
-        <div class="col-md-5 col-xs-9 detail">
+        <div class="col-md-5 col-xs-9 detail block-shadow">
           <span>Il est temps de changer de ville ! Nous voici arrivés dans la région vendéenne</span>
         </div>
       </div>
@@ -196,13 +202,13 @@
 
 
   <div id="competences" class="wrapper">
-    <div class="container">
+    <div class="container block-shadow">
 
       <div class="row">
         <h3>Mes compétences</h3>
       </div>
 
-      <div class="detail-comp col-lg-3 col-md-3 col-xs-6 col-sm-3">
+      <div class="detail-comp col-lg-3 col-md-3 col-sm-3 col-xs-12">
         <span class="techno">CSS</span>
         <div class="progress">
           <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:75%">
@@ -210,7 +216,7 @@
         </div>
       </div>
 
-      <div class="detail-comp col-lg-3 col-md-3 col-xs-6 col-sm-3">
+      <div class="detail-comp col-lg-3 col-md-3 col-xs-12 col-sm-3">
         <span class="techno">SASS</span>
         <div class="progress">
           <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:60%">
@@ -218,7 +224,7 @@
         </div>
       </div>
 
-      <div class="detail-comp col-lg-3 col-md-3 col-xs-6 col-sm-3">
+      <div class="detail-comp col-lg-3 col-md-3 col-xs-12 col-sm-3">
         <span class="techno">HTML</span>
         <div class="progress">
           <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:75%">
@@ -226,7 +232,7 @@
         </div>
       </div>
 
-      <div class="detail-comp col-lg-3 col-md-3 col-xs-6 col-sm-3">
+      <div class="detail-comp col-lg-3 col-md-3 col-xs-12 col-sm-3">
         <span class="techno">jQuery</span>
         <div class="progress">
           <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:30%">
@@ -234,7 +240,7 @@
         </div>
       </div>
 
-      <div class="detail-comp col-lg-3 col-md-3 col-xs-6 col-sm-3">
+      <div class="detail-comp col-lg-3 col-md-3 col-xs-12 col-sm-3">
         <span class="techno">Photophop</span>
         <div class="progress">
           <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:60%">
@@ -242,7 +248,7 @@
         </div>
       </div>
 
-      <div class="detail-comp col-lg-3 col-md-3 col-xs-6 col-sm-3">
+      <div class="detail-comp col-lg-3 col-md-3 col-xs-12 col-sm-3">
         <span class="techno">GIT</span>
         <div class="progress">
           <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:35%">
@@ -251,7 +257,7 @@
       </div>
 
 
-      <div class="detail-comp col-lg-3 col-md-3 col-xs-6 col-sm-3">
+      <div class="detail-comp col-lg-3 col-md-3 col-xs-12 col-sm-3">
         <span class="techno">Drupal</span>
         <div class="progress">
           <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:30%">
@@ -259,7 +265,7 @@
         </div>
       </div>
 
-      <div class="detail-comp col-lg-3 col-md-3 col-xs-6 col-sm-3">
+      <div class="detail-comp col-lg-3 col-md-3 col-xs-12 col-sm-3">
         <span class="techno">PHP</span>
         <div class="progress">
           <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:25%">
@@ -267,7 +273,7 @@
         </div>
       </div>
 
-      <div class="detail-comp col-lg-3 col-md-3 col-xs-6 col-sm-3">
+      <div class="detail-comp col-lg-3 col-md-3 col-xs-12 col-sm-3">
         <span class="techno">Mysql</span>
         <div class="progress">
           <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:25%">
@@ -275,7 +281,7 @@
         </div>
       </div>
 
-      <div class="detail-comp col-lg-3 col-md-3 col-xs-6 col-sm-3">
+      <div class="detail-comp col-lg-3 col-md-3 col-xs-12 col-sm-3">
         <span class="techno">Office</span>
         <div class="progress">
           <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:75%">
@@ -283,7 +289,7 @@
         </div>
       </div>
 
-      <div class="detail-comp col-lg-3 col-md-3 col-xs-6 col-sm-3">
+      <div class="detail-comp col-lg-3 col-md-3 col-xs-12 col-sm-3">
         <span class="techno">Windev</span>
         <div class="progress">
           <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:40%">
@@ -291,7 +297,7 @@
         </div>
       </div>
 
-      <div class="detail-comp col-lg-3 col-md-3 col-xs-6 col-sm-3">
+      <div class="detail-comp col-lg-3 col-md-3 col-xs-12 col-sm-3">
         <span class="techno">Magento</span>
         <div class="progress">
           <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:25%">
@@ -315,235 +321,159 @@
   </div>
 
   <div class="wrapper parcours-detail">
-    <div class="container">
+    <div class="container block-shadow">
 
       <h4>Dans l'informatique</h4>
 
-      <div class="col-md-4 col-xs-12 col-sm-6 entreprise">
+      <div class="col-md-12 col-xs-12 col-sm-12 entreprise">
           <div class="margin">
             <div class="row">
-              <div class="col-md-12">
-                <img src="images/logo-cap.jpg" alt="Capgemini" title="Capgemini"> <br>
+              <div class="part-1 col-lg-4 col-md-3 col-sm-4 col-xs-12">
+                <img class="logo" src="images/logo-cap.jpg" alt="Capgemini" title="Capgemini">
+                <p class="date">Décembre 2016 - Aujourd'hui</p>
               </div>
-            </div>
 
-            <div class="row">
-              <div class="col-md-12">
+              <div class="col-lg-8 col-md-9 col-sm-8 col-xs-12">
                 <h5>Intégrateur Web</h5>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-12 date">
-                Décembre 2016 - Aujourd'hui
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-12 detail">
-                Manipulation du back-office Drupal <br>
-                Intégration de maquette <br>
-                SASS - CSS - JS - HTML <br>
+                <div class="detail">
+                  <p class="no-margin puce">Intégration de maquette</p>
+                  <p class="no-margin puce">SASS - CSS - JS - HTML</p>
+                  <p class="no-margin puce">Manipulation du back-office Drupal</p>
+                  <p class="no-margin puce">Méthode AGIL</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-md-4 col-xs-12 col-sm-6 entreprise">
+        <div class="col-md-12 col-xs-12 col-sm-12 entreprise">
           <div class="margin">
             <div class="row">
-              <div class="col-md-12">
-                <img src="images/logo_stepnet.jpg" alt="Stepnet" title="Stepnet"> <br>
+              <div class="part-1 col-lg-4 col-md-3 col-sm-4 col-xs-12">
+                <img class="logo" src="images/logo_stepnet.jpg" alt="Stepnet" title="Stepnet">
+                <p class="date">Juillet 2015 - Octobre 2016</p>
               </div>
-            </div>
 
-            <div class="row">
-              <div class="col-md-12">
-                <h5>Intégratrice</h5>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-12 date">
-                Juillet 2015 - Octobre 2016
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-12 detail">
-                Création de site static pour les intégrer dans Drupal <br>
-                Refonte graphique des sites ARVAL (BNP) <br>
-                Manipulation du back-office Drupal <br>
-                Intégration de maquette <br>
-                SASS - CSS - JS - HTML <br>
+              <div class="col-lg-8 col-md-9 col-sm-8 col-xs-12">
+                <h5>Intégrateur Web</h5>
+                <div class="detail">
+                  <p class="no-margin puce">Création de site static pour les intégrer dans Drupal</p>
+                  <p class="no-margin puce">Refonte graphique des sites ARVAL (BNP)</p>
+                  <p class="no-margin puce">Manipulation du back-office Drupal</p>                  
+                  <p class="no-margin puce">Intégration de maquette</p>
+                  <p class="no-margin puce">SASS - CSS - JS - HTML</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-md-4 col-xs-12 col-sm-6 entreprise">
+        <div class="col-md-12 col-xs-12 col-sm-12 entreprise">
           <div class="margin">
             <div class="row">
-              <div class="col-md-12">
-                <img src="images/logo-lcda.png" alt="La compagnie des animaux" title="La compagnie des animaux"> <br>
+              <div class="part-1 col-lg-4 col-md-3 col-sm-4 col-xs-12">
+                <img class="logo" src="images/logo-lcda.png" alt="La compagnie des animaux" title="La compagnie des animaux">
+                <p class="date">Mai 2013 - Mai 2014</p>
               </div>
-            </div>
 
-            <div class="row">
-              <div class="col-md-12">
+              <div class="col-lg-8 col-md-9 col-sm-8 col-xs-12">
                 <h5>Développeur WEB</h5>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-12 date">
-                Mai 2013 - Mai 2014
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-12 detail">
-                Amélioration du site La Compagnie Des Animaux <br>
-                Création d'un nouveau site DOGTEUR <br>
-                Rédaction de documentations <br>
-                Découpage de PSD <br>
-                CMS Magento <br>
+                <div class="detail">
+                  <p class="no-margin puce">Amélioration du site La Compagnie Des Animaux</p>
+                  <p class="no-margin puce">Création d'un nouveau site DOGTEUR</p>
+                  <p class="no-margin puce">Rédaction de documentations</p>                  
+                  <p class="no-margin puce">Découpage de PSD</p>
+                  <p class="no-margin puce">CMS Magento</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-md-4 col-xs-12 col-sm-6 entreprise">
+        <div class="col-md-12 col-xs-12 col-sm-12 entreprise">
           <div class="margin">
             <div class="row">
-              <div class="col-md-12">
-                <img src="images/cilpak.png" alt="Cilpak" title="Cilpak"> <br>
+              <div class="part-1 col-lg-4 col-md-3 col-sm-4 col-xs-12">
+                <img class="logo" src="images/cilpak.png" alt="Cilpak" title="Cilpak">
+                <p class="date">Septembre 2013 - Mai 2014</p>
               </div>
-            </div>
 
-            <div class="row">
-              <div class="col-md-12">
+              <div class="col-lg-8 col-md-9 col-sm-8 col-xs-12">
                 <h5>Développeur WINDEV</h5>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-12 date">
-                Septembre 2013 - Mai 2014
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-12 detail">
-                Création d'un nouveau module pour l'ajouter au logiciel <br>
-                Rédaction documentations utilisateurs <br>
-                Maintenance du logiciel existant <br>
-                Utilisation de WINDEV <br>
-                Aide utilisateurs <br>
+                <div class="detail">
+                  <p class="no-margin puce">Création d'un nouveau module pour l'ajouter au logiciel</p>
+                  <p class="no-margin puce">Rédaction documentations utilisateurs</p>
+                  <p class="no-margin puce">Maintenance du logiciel existant</p>                  
+                  <p class="no-margin puce">Utilisation de WINDEV</p>
+                  <p class="no-margin puce">Aide utilisateurs</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-md-4 col-xs-12 col-sm-6 entreprise">
+        <div class="col-md-12 col-xs-12 col-sm-12 entreprise">
           <div class="margin">
             <div class="row">
-              <div class="col-md-12">
-                <img src="images/logo-gtt.png" alt="Gaztransport et Technigaz" title="Gaztransport et Technigaz"> <br>
+              <div class="part-1 col-lg-4 col-md-3 col-sm-4 col-xs-12">
+                <img class="logo" src="images/logo-gtt.png" alt="Gaztransport et Technigaz" title="Gaztransport et Technigaz">
+                <p class="date">Septembre 2011 - Aout 2013</p>
               </div>
-            </div>
 
-            <div class="row">
-              <div class="col-md-12">
+              <div class="col-lg-8 col-md-9 col-sm-8 col-xs-12">
                 <h5>Développeur WINDEV</h5>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-12 date">
-                Septembre 2011 - Aout 2013
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-12 detail">
-                Rédaction de documentation et utilisation de la GED <br>
-                Gestion des tickets utilisateurs avec GLPI <br>
-                Création d'un logiciel avec WINDEV <br>
-                Maintenance du parc informatique <br>
-                Aide à l'utilisateur <br>
+                <div class="detail">
+                  <p class="no-margin puce">Rédaction de documentation et utilisation de la GED</p>
+                  <p class="no-margin puce">Gestion des tickets utilisateurs avec GLPI</p>
+                  <p class="no-margin puce">Création d'un logiciel avec WINDEV</p>                  
+                  <p class="no-margin puce">Maintenance du parc informatique</p>
+                  <p class="no-margin puce">Aide utilisateurs</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-md-4 col-xs-12 col-sm-6 entreprise">
+        <div class="col-md-12 col-xs-12 col-sm-12 entreprise">
           <div class="margin">
             <div class="row">
-              <div class="col-md-12">
-                <img src="images/logo-lou.png" alt="Lord of Universe" title="Lord of universe"> <br>
+              <div class="part-1 col-lg-4 col-md-3 col-sm-4 col-xs-12">
+                <img class="logo" src="images/logo-lou.png" alt="Lord of Universe" title="Lord of universe">
+                <p class="date">Septembre 2014 - Juillet 2015</p>
               </div>
-            </div>
 
-            <div class="row">
-              <div class="col-md-12">
+              <div class="col-lg-8 col-md-9 col-sm-8 col-xs-12">
                 <h5>Développement & Design</h5>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-12 date">
-                Septembre 2014 - Juillet 2015
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-12 detail">
-                Aide à l'amélioration du design <br>
-                Aide au développement <br>
-                Bénévolat <br>
+                <div class="detail">
+                  <p class="no-margin puce">Aide à l'amélioration du design</p>
+                  <p class="no-margin puce">Aide au développement</p>
+                  <p class="no-margin puce">Bénévolat</p>           
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-
-      <div class="row">
-        <div class="col-md-12">
-          <h4>Ailleurs ...</h4>
-        </div>
-      </div>
-
-      <div class="col-md-4 col-md-offset-4 col-xs-12 entreprise">
+      <div class="col-md-12 col-xs-12 col-sm-12 entreprise">
+        <h4>Ailleurs ...</h4>
         <div class="margin">
           <div class="row">
-            <div class="col-md-12">
-              <img src="images/logo-mutualite.png" alt="mutualité" title="mutualité"> <br>
+            <div class="part-1 col-lg-4 col-md-3 col-sm-4 col-xs-12">
+              <img class="logo" src="images/logo-mutualite.png" alt="mutualité" title="mutualité">
+              <p class="date">Octobre 2010 - Mai 2011</p>
             </div>
-          </div>
 
-          <div class="row">
-            <div class="col-md-12">
+            <div class="col-lg-8 col-md-9 col-sm-8 col-xs-12">
               <h5>Aide soignante</h5>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-12 date">
-              Octobre 2010 - Mai 2011
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-12 detail">
-              Réconfort psychologique <br>
-              Aide à la personne <br>
-              Soin <br>
+              <div class="detail">
+                <p class="no-margin puce">Réconfort psychologique</p>
+                <p class="no-margin puce">Aide à la personne</p>
+                <p class="no-margin puce">Soin</p>           
+              </div>
             </div>
           </div>
         </div>
       </div>
-
     </div>
   </div>
 
@@ -564,7 +494,6 @@
     <h5>La photographie</h5>
 
     <div id="freewall" class="container grid">
-
       <?php if ($dossier = opendir('images/creations')) : ?>
         <?php while(false !== ($fichier = readdir($dossier))) : ?>
           <?php if($fichier != '.' && $fichier != '..' && $fichier != 'index.php' && $fichier != '.DS_Store') : ?>
@@ -585,7 +514,7 @@
 
   <div class="wrapper contact">
 
-    <div class="container">
+    <div class="container block-shadow">
       <h5>Me contacter</h5>
 
       <form class="form-contact" action="envoi.php" method="post">
@@ -621,8 +550,8 @@
       <div class="row">
         <div class="col-md-4 adresse">
           Hélène CHOLEZ <br>
-          17, rue Fustel de Coulanges <br>
-          91 300 MASSY
+          12 rue des Cicadelles <br>
+          85 600 Saint Georges de Montaifu
         </div>
 
         <div class="col-md-4 coordonnee">
@@ -659,6 +588,10 @@
   <div class="fleche">
     <i class="fa fa-arrow-up" aria-hidden="true"></i>
   </div>
+
+  <a href="tel:0770399294" class="message-img">
+    <img src="images/profil-4.jpg" alt="Hélène CHOLEZ">
+  </a>
 
   <div class="wrapper footer">
     <div class="container">
